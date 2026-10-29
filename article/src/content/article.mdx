@@ -1,0 +1,94 @@
+---
+title: "Demonstrations as Context, History as Patches"
+subtitle: "FPP · Full-History Patch Policy on LIBERO-Gen"
+url: "https://ycma8.github.io/fpp-libero-gen-icl/"
+repository: "https://github.com/ycma8/fpp-libero-gen-icl"
+description: "Demonstration-conditioned imitation with causal spatial patch memory and flow-matching actions"
+authors:
+  - name: "Yuchi Ma"
+affiliations: []
+template: "article"
+showPdf: false
+seoThumbImage: "/preview.svg"
+tableOfContentsAutoCollapse: true
+licence: >
+  Layout adapted from Thibaud Frere's research-article-template under CC BY 4.0. First-party method code is MIT licensed; external models and benchmark assets retain their own terms.
+tags:
+  - robot-learning
+  - in-context-imitation
+---
+
+## Overview
+
+A robot must determine both **which behavior a demonstration specifies** and **where it is in its current execution**. Full-History Patch Policy (FPP) represents the demonstration and sampled execution history as spatial visual tokens, then generates continuous action chunks using conditional flow matching. No policy parameters are updated at test time.
+
+On LIBERO-Gen Combination, a fresh seed-42 policy trained for 10,000 updates reaches **391/500 successes (78.2%)**, matching the released BPP seed-2 reference. With the same checkpoint, states and inference seeds but a wrong-task demonstration, it reaches **51/500 (10.2%)**. These are single-seed results, with benchmark-informed model selection; the comparison does not establish statistical or matched-compute superiority.
+
+[Implementation and reproducible trial records](https://github.com/ycma8/fpp-libero-gen-icl).
+
+<figure className="method-figure">
+  <picture>
+    <source media="(max-width: 640px)" srcSet={import.meta.env.BASE_URL + "method-mobile.svg"} />
+    <img src={import.meta.env.BASE_URL + "method.svg"} width="1100" height="500" alt="FPP architecture: demonstration and causal history condition a flow action decoder" />
+  </picture>
+  <figcaption>Demonstration and causal history provide spatial context; the action decoder also attends directly to the demonstration.</figcaption>
+</figure>
+
+## Inputs and representation
+
+A support demonstration contains two camera streams, end-effector/gripper proprioception, and recorded actions. Temporal chunks use an RGB/proprio observation and 20 consecutive 10D actions. RGB and proprio are sampled at chunk boundaries; actions retain their within-chunk temporal resolution. Training pairs distinct trajectories of the same task. Test-time support demonstrations specify held-out task combinations.
+
+A frozen [DINOv3](https://arxiv.org/abs/2508.10104) ViT-B/16 produces 14×14 spatial patches per image. The support representation retains all 196 patches for each camera. Query agent-view images retain 196 patches; query wrist images use 49 learned pooling queries. An 11D proprio token completes each 246-token query observation. A support chunk contains 413 tokens:392 visual patches, one proprio token and 20 action tokens.
+
+The model has a maximum 18 support chunks and 46 sampled execution observations. Training query histories use fixed stride 12; full sampled history does not mean every raw video frame is supervised. The action target starts one raw control after the query observation, while support chunks retain the benchmark's same-row convention.
+
+## Causal patch memory
+
+Six width-512 visual Transformer layers jointly contextualize the demonstration and execution patches. Demonstration tokens form a bidirectional prefix that cannot read query observations. A query block can read the demonstration and all execution observations up to its own time. Future query frames are masked. Temporal rotary positions use observation indices; fixed spatial positions and camera identities preserve patch layout.
+
+The encoder returns a contextualized current patch block whose tokens may incorporate earlier observations. This preserves a spatially resolved interface to the action generator; it does not guarantee that all past details are retained or used.
+
+At inference, visual keys and values persist for the current rollout. Appending a new observation encodes only its block against the cached past. Every trial resets the cache. Full-history training and incremental inference have matching causal semantics.
+
+## Demonstration-aware action generation
+
+Eight width-512 flow layers generate 16-step 10D action chunks. Each layer attends to the contextualized query representation and independently to the masked support representation. Shared differentiable support K/V projections avoid recomputing the same demonstration for every target time. Q/K normalization and FP32 residual updates support stable mixed-precision optimization.
+
+For a demonstrated action chunk $A$ and Gaussian noise $\epsilon$, sample $\tau\sim U(0,1)$ and optimize
+
+$$
+X_\tau=(1-\tau)\epsilon+\tau A,\qquad
+\mathcal L=\mathbb E\left[\|v_\theta(X_\tau,\tau,M_t,D)-(A-\epsilon)\|_2^2\right].
+$$
+
+Here $M_t$ is the current contextualized observation and $D$ is the support memory. Ten flow integration steps generate an action chunk. The benchmark inverse maps 10D rotation/proprio-compatible actions to native 7D controls. Twelve controls are executed at 20Hz before the next policy observation.
+
+## Training protocol
+
+The Combination split contains 164 training tasks and 8200 trajectories. The ten test tasks combine known pick and place primitives in held-out combinations. Task IDs, language, object poses and privileged simulator state are excluded from policy inputs. Test-task action targets never enter optimizer updates or normalization.
+
+Policy parameters, AdamW state and EMA are initialized fresh. The generic visual backbone is pretrained and frozen. Training uses seed 42, global batch 64, AdamW betas(0.9,0.95), weight decay 0.01 and gradient clipping 1.0. Peak LR is 2e-4 with 2000 warmup steps and a 50K cosine envelope. The reported endpoint is 10K updates; this endpoint does not rescale the LR envelope. Constant FP32 EMA 0.999 starts at step 2000.
+
+## Official evaluation
+
+Each of ten held-out tasks uses fifty canonical pruned initial states. The official wrappers use environment seed 7, twelve initial open-gripper controls and a 550-control policy budget. Support assignment is `demo_{init_index % 10}`. Each rollout is seeded independently as `4242 + 1000*sorted_task_index + init_index`. There are no fixture or camera overrides.
+
+| Policy / prompt | Successes | Rate |
+|---|---:|---:|
+| **FPP · correct demonstration** | **391/500** | **78.2%** |
+| FPP · wrong-task demonstration | 51/500 | 10.2% |
+| Released BPP · seed 2 reference | 391/500 | 78.2% |
+
+The matched prompt change lowers success by 68.0 percentage points. It supports use of the demonstration as a whole; it does not isolate camera, proprioception or action contributions. The released BPP policy has a different architecture/backbone/training recipe and is a reference checkpoint, not a matched-budget training control.
+
+The repository supplies 1000 FPP trial records, canonical state identities and a standard-library verifier. Trial/summary bytes are preserved; machine-specific checkpoint paths in protocol metadata are redacted and disclosed in export provenance. The model/EMA hashes are published. Policy weight binaries and simulator/data assets are not hosted in this code repository.
+
+## Limits and reproducibility
+
+The reported result uses one training seed, and benchmark evaluations informed checkpoint/EMA selection. It neither demonstrates a statistically reliable advantage over BPP nor establishes a best training budget. The benchmark measures unseen combinations of known primitives, not unrestricted acquisition of new motor skills. Full sampled history is an architectural capacity; a matched memory ablation would be needed to attribute success to that capacity alone.
+
+Use the supplied commands and pinned upstream revisions to reproduce data preparation, fresh training and official evaluation. New hardware/runtime/cache metadata may change exact bits. Offline verification recomputes recorded scores and protocol membership; it does not run the simulator or load the actual model tensors.
+
+## Attribution
+
+The implementation builds on [FPP](https://github.com/ycma8/fpp-libero-mem), [BPP and LIBERO-Gen](https://github.com/real-stanford/behavior_prompting), [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO), DINOv3 and conditional flow matching. First-party code is MIT licensed. The article layout is adapted from Thibaud Frere's research-article-template under CC BY 4.0; external assets retain their respective terms.

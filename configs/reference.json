@@ -1,0 +1,66 @@
+{
+  "model": {
+    "feature_dim": 768,
+    "grid_size": 14,
+    "demo_grid_size": 7,
+    "demo_frames": 18,
+    "max_steps": 46,
+    "visual_dim": 512,
+    "visual_heads": 8,
+    "visual_layers": 6,
+    "ffn_ratio": 4,
+    "checkpoint_visual": true,
+    "decoder_dim": 512,
+    "decoder_heads": 8,
+    "decoder_layers": 8,
+    "horizon": 16,
+    "action_dim": 10,
+    "direct_demo": true,
+    "checkpoint_direct": true,
+    "shared_demo_kv": true,
+    "demo_full_patches": true,
+    "demo_pooling": "learned",
+    "demo_input": "bpp",
+    "demo_chunk_size": 20,
+    "query_input": "bpp",
+    "action_qk_norm": true,
+    "action_fp32_residual": true,
+    "query_wrist_pool": "learned"
+  },
+  "training": {
+    "steps": 10000,
+    "schedule_steps": 50000,
+    "warmup": 2000,
+    "batch": 64,
+    "lr": 0.0002,
+    "seed": 42,
+    "ema_decay": 0.999,
+    "ema_start": 2000,
+    "world_size": 8,
+    "optimizer": "AdamW",
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "weight_decay": 0.01,
+    "gradient_clip": 1.0
+  },
+  "data": {
+    "train_tasks": 164,
+    "train_episodes": 8200,
+    "query_history_stride": 12,
+    "query_action_offset": 1,
+    "target_steps": 32,
+    "support_pairing": "random distinct same-task episode",
+    "demo_chunk_size": 20
+  },
+  "evaluation": {
+    "trials": 500,
+    "environment_seed": 7,
+    "settling_controls": 12,
+    "policy_controls": 550,
+    "execution_chunk": 12,
+    "prediction_horizon": 16,
+    "flow_steps": 10
+  }
+}

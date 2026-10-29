@@ -1,0 +1,113 @@
+{
+  "checkpoint_step": 10000,
+  "condition": "correct",
+  "weight_source": "ema",
+  "trials": 500,
+  "successes": 391,
+  "success_rate": 0.782,
+  "per_task": {
+    "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_cookie_box": {
+      "trials": 50,
+      "successes": 36,
+      "success_rate": 0.72
+    },
+    "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate": {
+      "trials": 50,
+      "successes": 40,
+      "success_rate": 0.8
+    },
+    "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_in_the_black_bowl_next_to_the_ramekin": {
+      "trials": 50,
+      "successes": 14,
+      "success_rate": 0.28
+    },
+    "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_stove": {
+      "trials": 50,
+      "successes": 45,
+      "success_rate": 0.9
+    },
+    "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_in_the_black_bowl_on_the_wooden_cabinet": {
+      "trials": 50,
+      "successes": 32,
+      "success_rate": 0.64
+    },
+    "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_wooden_cabinet": {
+      "trials": 50,
+      "successes": 50,
+      "success_rate": 1.0
+    },
+    "pick_up_the_black_bowl_on_the_plate_and_place_it_in_the_black_bowl_on_the_table_center": {
+      "trials": 50,
+      "successes": 40,
+      "success_rate": 0.8
+    },
+    "pick_up_the_black_bowl_on_the_plate_and_place_it_on_the_table_center": {
+      "trials": 50,
+      "successes": 44,
+      "success_rate": 0.88
+    },
+    "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_ramekin": {
+      "trials": 50,
+      "successes": 41,
+      "success_rate": 0.82
+    },
+    "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_between_the_plate_and_the_ramekin": {
+      "trials": 50,
+      "successes": 49,
+      "success_rate": 0.98
+    }
+  },
+  "protocol": {
+    "protocol": "official Combination, 50 fixed pruned initial states per task",
+    "environment_seed": 7,
+    "control_hz": 20,
+    "open_gripper_steps": 12,
+    "policy_control_budget": 550,
+    "execution_chunk": 12,
+    "prediction_horizon": 16,
+    "support_assignment": "demo_{initial_state_index % 10}, matching official n_envs=10 pair prompt order",
+    "reset": "seed 7, reset with hard_reset=False, register official init state, reset, open gripper",
+    "fixture_or_camera_overrides": false,
+    "success": "max of benchmark reward over the rollout",
+    "official_source_revision": "96294c35705a18823ff2c850d37fbb1e12c21d85",
+    "libero_source_revision": "8f1084e3132a39270c3a13ebe37270a43ece2a01",
+    "source_hashes": {
+      "env_runner/libero_image_runner.py": "2c2fbb725ae56ff59c2dd9a4b1bd93e7eda48497f0c80daa042cdca6809fef3a",
+      "env/libero/env_wrapper.py": "4909e634110923d787ce92cd99002ec6ef9928689225f865058be9923778216c",
+      "gym_util/multistep_wrapper.py": "b4e08a7fd07d051d66f988d8f173c6373ea05ef6a12ef1a900a38b073e3eb773",
+      "common/sampler.py": "edb5e5969708d344e69e7ad8cdc596113d0f2c763e08a41efb019d6c1c76c02f"
+    },
+    "condition": "correct",
+    "checkpoint": "checkpoints/fpp-libero-gen-10k.pt",
+    "checkpoint_step": 10000,
+    "training_source_revision": "bfae001e50f34865ae875d687fac233d96b8ebfe",
+    "evaluator_source_revision": "bfae001e50f34865ae875d687fac233d96b8ebfe",
+    "evaluator_sha256": "46e6465b1d5c52861f69e9468e4740a80d9ea49f8049bde19609d63dcd14ab39",
+    "manifest_sha256": "d4ff3dc9b051cafa6f8431a9844082355c248b0c6d1a3a06cb82103d0a4a17c6",
+    "trials_per_task": 50,
+    "policy_inputs": "Support dual-view RGB/action10/proprio11; query dual-view RGB/proprio11 full causal history",
+    "prefix_control": "All demo modalities change together. Last_frame repeats the final real chunk; shuffled reorders real chunks; blank zeros all modalities; padding mask preserved.",
+    "rng_seed": "4242 + 1000*sorted_task_index + official_init_index",
+    "flow_steps": 10,
+    "visual_backbone": "vit_base_patch16_dinov3.lvd1689m",
+    "visual_backbone_sha256": "1f9ed8a2378d65e24bb710ba522ac9fa7be4e036d7aefb4384ce022833926332",
+    "weight_source": "ema",
+    "weight_sha256": "cc7af6f8e281bca6b4ea6ce30c9a1da80fe5c9104721d23dc56c58dad6911b70",
+    "ema": {
+      "format": "fpp_parameter_ema_v1",
+      "decay": 0.999,
+      "start_step": 2000,
+      "initialized_step": 2000,
+      "last_step": 10000,
+      "updates": 8000
+    },
+    "demo_cache_manifest_sha256": "c127e71636c32a0d4ec51dcce58f5fba6e9c8b64e4de21232f19ac9ae65fb51b",
+    "execution_cache_manifest_sha256": "178f35aa117f1b1c5f25e603911b3df2764127ad5ef9ca51691d857c32127974",
+    "native_action_dim": 7,
+    "policy_action_dim": 10,
+    "history_capacity": 46,
+    "query_stride": 12
+  },
+  "checkpoint_sha256": "a1c71f4ba9ac7d4a1388b99ed4695cecb7406db83f47d86959154ff6e3c72f10",
+  "completed_at": "2026-10-23T07:15:07.734156+00:00"
+}

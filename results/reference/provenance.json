@@ -1,0 +1,271 @@
+{
+  "method": "FPP",
+  "reported_training_source_revision": "bfae001e50f34865ae875d687fac233d96b8ebfe",
+  "model_configuration": {
+    "feature_dim": 768,
+    "grid_size": 14,
+    "demo_grid_size": 7,
+    "demo_frames": 18,
+    "max_steps": 46,
+    "visual_dim": 512,
+    "visual_heads": 8,
+    "visual_layers": 6,
+    "ffn_ratio": 4,
+    "checkpoint_visual": true,
+    "decoder_dim": 512,
+    "decoder_heads": 8,
+    "decoder_layers": 8,
+    "horizon": 16,
+    "action_dim": 10,
+    "direct_demo": true,
+    "checkpoint_direct": true,
+    "shared_demo_kv": true,
+    "demo_full_patches": true,
+    "demo_pooling": "learned",
+    "demo_input": "bpp",
+    "demo_chunk_size": 20,
+    "query_input": "bpp",
+    "action_qk_norm": true,
+    "action_fp32_residual": true,
+    "query_wrist_pool": "learned"
+  },
+  "core_source_sha256": {
+    "fpp_libero_gen/__init__.py": "4c8dbfd1b52fa9d833e2352d1647e44988c696d94984097631b03986bb5b7f65",
+    "fpp_libero_gen/data.py": "73569cb7a0ae2c1e2372e8e70be269182837bad1698d5bb2e6f90c15bb57f061",
+    "fpp_libero_gen/diagnostics.py": "621c5ed5a889da782e2426b3c750a291eb91cb645198741095706327297ca88e",
+    "fpp_libero_gen/direct_head.py": "01acebb3f1270b2467e8ef105f86f97311f316dda5b981298c873825e33e9e53",
+    "fpp_libero_gen/ema.py": "5224f4e832cb989be8f4d4d8693c1d3d89086ed63a4c0570f4bb98d8be60840e",
+    "fpp_libero_gen/execution.py": "8c1b1130bdbc0ca135172f324ed1f75195ddd4336aeb8aa5558b0f31dc07828f",
+    "fpp_libero_gen/model.py": "c56f65409a1b7a33965175d50502fc155d7b56ce98ea121841952fef44a902de",
+    "fpp_libero_gen/official.py": "fecd3a0676326a320dd4590c4a2eb9c086d1cfb1f949f4a162d869a433492f4b",
+    "fpp_libero_gen/prompt_controls.py": "d91f23138d1faffb176d0f22aa09e89e29589f0ab52c2c71486477442fb64f09",
+    "fpp_libero_gen/sensorimotor.py": "c86801075439bf0807c90c09cd861bb750bac041f71be9e4f10ed153435bf5f5",
+    "fpp_libero_gen/simulation.py": "f289a69c2c0d5fdce231dda16e4b5b5ad09d81d541ff2f51dc09ad9a24e789cd",
+    "fpp_libero_gen/stability.py": "6e2f7549075fa72d9a81804b40dd4519ad05466db9b35fcc7218264a3a4d6656",
+    "fpp_libero_mem/__init__.py": "4c46c7c85384e010f571b63523cead9faf88dce51a343ccafc00f03e765fce89",
+    "fpp_libero_mem/data.py": "fdb8f17e0efe6d7d93ba828077735d3ab627a61eba4cca05a61cf268446d4d4b",
+    "fpp_libero_mem/distributed.py": "2f2a1e27e2ef54e3ec0980a51c9aee99973eb54a33df1fb75d501e9b657232ef",
+    "fpp_libero_mem/evaluation.py": "848252f2b7b0221ac260422b29b016cd6357615d2d655dfe0f2772adf0a92641",
+    "fpp_libero_mem/incremental.py": "274ca63b7b952adc6a3676d83635c91fd56658bc380753d2a9be5e5a18de756b",
+    "fpp_libero_mem/inference.py": "9a4c112e1d379e6d2ee1c288f0398ce013b2ee2c9eb70e233e65c38546697fa8",
+    "fpp_libero_mem/patch_causal_dit.py": "d536671a9260c829b4f4aee6fd2e40e01d791ac84a36a7cf29309a340ba207e5",
+    "fpp_libero_mem/prefix_model.py": "2242ba4f607f8a5405c7e460709740e3374f1de0cc19b49d91918c5fab378a35",
+    "train_video.py": "4184973fa29e5fe599f89e49bfadf31ca38972e9103f7733b6c063c6938a8c93",
+    "evaluate_official_video.py": "46e6465b1d5c52861f69e9468e4740a80d9ea49f8049bde19609d63dcd14ab39"
+  },
+  "checkpoint_sha256": "a1c71f4ba9ac7d4a1388b99ed4695cecb7406db83f47d86959154ff6e3c72f10",
+  "ema_weight_sha256": "cc7af6f8e281bca6b4ea6ce30c9a1da80fe5c9104721d23dc56c58dad6911b70",
+  "canonical_manifest_sha256": "d4ff3dc9b051cafa6f8431a9844082355c248b0c6d1a3a06cb82103d0a4a17c6",
+  "reported_conditions": {
+    "correct": {
+      "successes": 391,
+      "trials": 500,
+      "success_rate": 0.782
+    },
+    "wrong": {
+      "successes": 51,
+      "trials": 500,
+      "success_rate": 0.102
+    }
+  },
+  "export": {
+    "trial_and_summary_bytes": "unchanged",
+    "protocol_metadata": "Machine-specific checkpoint path replaced by a portable artifact name; this export does not claim byte-identical protocol files",
+    "source_files": {
+      "results/reference/correct/protocol_shard0.json": {
+        "original_sha256": "510b82f2ed0718931f438557975930600437ef6a825d3b3180a18ed5cbbb45aa",
+        "metadata_checkpoint_path_redacted": true
+      },
+      "results/reference/correct/protocol_shard1.json": {
+        "original_sha256": "510b82f2ed0718931f438557975930600437ef6a825d3b3180a18ed5cbbb45aa",
+        "metadata_checkpoint_path_redacted": true
+      },
+      "results/reference/correct/protocol_shard2.json": {
+        "original_sha256": "510b82f2ed0718931f438557975930600437ef6a825d3b3180a18ed5cbbb45aa",
+        "metadata_checkpoint_path_redacted": true
+      },
+      "results/reference/correct/protocol_shard3.json": {
+        "original_sha256": "510b82f2ed0718931f438557975930600437ef6a825d3b3180a18ed5cbbb45aa",
+        "metadata_checkpoint_path_redacted": true
+      },
+      "results/reference/correct/protocol_shard4.json": {
+        "original_sha256": "510b82f2ed0718931f438557975930600437ef6a825d3b3180a18ed5cbbb45aa",
+        "metadata_checkpoint_path_redacted": true
+      },
+      "results/reference/correct/protocol_shard5.json": {
+        "original_sha256": "510b82f2ed0718931f438557975930600437ef6a825d3b3180a18ed5cbbb45aa",
+        "metadata_checkpoint_path_redacted": true
+      },
+      "results/reference/correct/protocol_shard6.json": {
+        "original_sha256": "510b82f2ed0718931f438557975930600437ef6a825d3b3180a18ed5cbbb45aa",
+        "metadata_checkpoint_path_redacted": true
+      },
+      "results/reference/correct/protocol_shard7.json": {
+        "original_sha256": "510b82f2ed0718931f438557975930600437ef6a825d3b3180a18ed5cbbb45aa",
+        "metadata_checkpoint_path_redacted": true
+      },
+      "results/reference/correct/summary_shard0.json": {
+        "original_sha256": "9028d15ec55e4e17b535a1b9e43efdc274eefca73570a7e288a7d41690ea1747",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/correct/summary_shard1.json": {
+        "original_sha256": "aa78acc525d1cefdca8365e33da48d1237f77a82780a063cf55e2af6d98eb0d6",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/correct/summary_shard2.json": {
+        "original_sha256": "87e6b1712072b32dc51e9bde1549df1785512f97ba774f501da4af7e77fcd7c5",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/correct/summary_shard3.json": {
+        "original_sha256": "99b36cf11466c32a8a750e075d5be6998c46c7e44673448cfe373a266711c92e",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/correct/summary_shard4.json": {
+        "original_sha256": "b0b3a2b6eeef1aa8ca877690dc9fa65460412cbf96a5000968f2496c605f39a9",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/correct/summary_shard5.json": {
+        "original_sha256": "73a62aac3b587bf580ff1f4359786e203e24b6f5c138454ffcf1b2a4823922d9",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/correct/summary_shard6.json": {
+        "original_sha256": "e1f2779ae243b1d2a6df05f301584aa869a0474b22db98c4395ecb6e38f9e24d",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/correct/summary_shard7.json": {
+        "original_sha256": "3e08ac2452ee9806582de0f6e98d286e294cced8ed33007ecb52325d63bbd74e",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/correct/trials_shard0.jsonl": {
+        "original_sha256": "009133c08fa6f8967eacb64464814c8f745f4a70506342cde12b3fd3e7fe0280",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/correct/trials_shard1.jsonl": {
+        "original_sha256": "575a7570ebf290a2eadc87e2306a8bc4c4260edef9cf3d47dd8c4ad5dd24cfc3",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/correct/trials_shard2.jsonl": {
+        "original_sha256": "0a8d1a12b4437737688d365ca3e27a73df790f1bb0dc1da80a5141781e9763ec",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/correct/trials_shard3.jsonl": {
+        "original_sha256": "de4bda3c17e4c3529b6dfaf55ad1a992d705ec648aff7d1f3b69271edb47cb3a",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/correct/trials_shard4.jsonl": {
+        "original_sha256": "5919c05c1ef4a92274f3f6f59b8e04bd0ef5e76d91ecd6592bfbf87e929683a0",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/correct/trials_shard5.jsonl": {
+        "original_sha256": "b1e08df8ebcb3c1bb1e2c188c057d153de7ba56e7082440cea89e657705e6252",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/correct/trials_shard6.jsonl": {
+        "original_sha256": "5c1d8e256c87d34a4e01457a9d8d14ee8b48e272b98d08be50cdd6c03e51d164",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/correct/trials_shard7.jsonl": {
+        "original_sha256": "70509c682a97dc84b31d0500734cd3a2dc233d87c5898db97a192b1b7dee5a87",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/wrong/protocol_shard0.json": {
+        "original_sha256": "b6878949af5554c02523722e6f10cec44004c63c1ce3656feef0aed4b12a73fe",
+        "metadata_checkpoint_path_redacted": true
+      },
+      "results/reference/wrong/protocol_shard1.json": {
+        "original_sha256": "b6878949af5554c02523722e6f10cec44004c63c1ce3656feef0aed4b12a73fe",
+        "metadata_checkpoint_path_redacted": true
+      },
+      "results/reference/wrong/protocol_shard2.json": {
+        "original_sha256": "b6878949af5554c02523722e6f10cec44004c63c1ce3656feef0aed4b12a73fe",
+        "metadata_checkpoint_path_redacted": true
+      },
+      "results/reference/wrong/protocol_shard3.json": {
+        "original_sha256": "b6878949af5554c02523722e6f10cec44004c63c1ce3656feef0aed4b12a73fe",
+        "metadata_checkpoint_path_redacted": true
+      },
+      "results/reference/wrong/protocol_shard4.json": {
+        "original_sha256": "b6878949af5554c02523722e6f10cec44004c63c1ce3656feef0aed4b12a73fe",
+        "metadata_checkpoint_path_redacted": true
+      },
+      "results/reference/wrong/protocol_shard5.json": {
+        "original_sha256": "b6878949af5554c02523722e6f10cec44004c63c1ce3656feef0aed4b12a73fe",
+        "metadata_checkpoint_path_redacted": true
+      },
+      "results/reference/wrong/protocol_shard6.json": {
+        "original_sha256": "b6878949af5554c02523722e6f10cec44004c63c1ce3656feef0aed4b12a73fe",
+        "metadata_checkpoint_path_redacted": true
+      },
+      "results/reference/wrong/protocol_shard7.json": {
+        "original_sha256": "b6878949af5554c02523722e6f10cec44004c63c1ce3656feef0aed4b12a73fe",
+        "metadata_checkpoint_path_redacted": true
+      },
+      "results/reference/wrong/summary_shard0.json": {
+        "original_sha256": "1ebe76ff35b36db9b6d0a0211fe4d723e4ac214c920218c947f3d57fbe3a6e71",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/wrong/summary_shard1.json": {
+        "original_sha256": "1ebe76ff35b36db9b6d0a0211fe4d723e4ac214c920218c947f3d57fbe3a6e71",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/wrong/summary_shard2.json": {
+        "original_sha256": "f23addfa49c3e4659f28c6e480b83bd3b9b76a0eb69e30205df6d920e3e2d0f3",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/wrong/summary_shard3.json": {
+        "original_sha256": "f23addfa49c3e4659f28c6e480b83bd3b9b76a0eb69e30205df6d920e3e2d0f3",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/wrong/summary_shard4.json": {
+        "original_sha256": "c91aeae8f0870f984cd1fdda0846bb24eaa8c95734bd89f4d5dd4b8d83c6eb33",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/wrong/summary_shard5.json": {
+        "original_sha256": "f23addfa49c3e4659f28c6e480b83bd3b9b76a0eb69e30205df6d920e3e2d0f3",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/wrong/summary_shard6.json": {
+        "original_sha256": "f84bd03283d6c237bfa0541fba05763c758fc14494d82654ace254f8128464c1",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/wrong/summary_shard7.json": {
+        "original_sha256": "f23addfa49c3e4659f28c6e480b83bd3b9b76a0eb69e30205df6d920e3e2d0f3",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/wrong/trials_shard0.jsonl": {
+        "original_sha256": "f419ce5eb08cade2acb95c79906ceab988ed645680b7d9660c1bc4db277886da",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/wrong/trials_shard1.jsonl": {
+        "original_sha256": "6e973c7c29ba31d00e7d158540824741eb24072f032ecf8db9cd0f068c0f35a7",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/wrong/trials_shard2.jsonl": {
+        "original_sha256": "d83d20228b4a11f3125aa0207b54ecba6c4f98d1a395edb5f572c8b96c5dea2a",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/wrong/trials_shard3.jsonl": {
+        "original_sha256": "16ef962b95318f7eced1375b42d7cb7517468916b94917b27598335296857ab9",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/wrong/trials_shard4.jsonl": {
+        "original_sha256": "649e485545e6809eeea4f87e191f8936c9df383257deb125f81aafe546cf5d6a",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/wrong/trials_shard5.jsonl": {
+        "original_sha256": "5542f7699ec712a5999180b4ce76e301257892375478710d349da0d42bb24792",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/wrong/trials_shard6.jsonl": {
+        "original_sha256": "4795f2f83710d904f644bc1eec32882fd82b1e0d69dcf444ff64afa820ff8669",
+        "metadata_checkpoint_path_redacted": false
+      },
+      "results/reference/wrong/trials_shard7.jsonl": {
+        "original_sha256": "bc33589e04b88d097f983d18af98f43721c6d7d813f8642c6f6ab4b34008b991",
+        "metadata_checkpoint_path_redacted": false
+      }
+    }
+  },
+  "weight_availability": "Checkpoint hash published; policy weight binaries are not hosted in this repository",
+  "selection_limit": "One training seed; checkpoint/EMA selection was informed by benchmark evaluation. No statistical superiority claim."
+}

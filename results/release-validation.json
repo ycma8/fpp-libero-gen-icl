@@ -1,0 +1,22 @@
+{
+  "unit_tests": {
+    "passed": 56,
+    "skipped": 1,
+    "note": "CUDA-specific test skipped on CPU; no training or rollout rerun"
+  },
+  "offline_records": {
+    "passed": true,
+    "trials": 1000,
+    "successes_correct": 391,
+    "successes_wrong": 51
+  },
+  "article_build": {
+    "passed": true,
+    "base_path": "/fpp-libero-gen-icl"
+  },
+  "entrypoint_help": {
+    "train": true,
+    "evaluate": true
+  },
+  "note": "Release packaging checks; these do not constitute a new model evaluation."
+}

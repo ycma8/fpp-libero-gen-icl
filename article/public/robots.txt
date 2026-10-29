@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+LLMs-Txt: https://ycma8.github.io/fpp-libero-mem/llms.txt

@@ -1,0 +1,1227 @@
+{
+  "suite": "combination",
+  "source_repo": "austinpatel/libero_gen_spatial_combination_hdf5",
+  "source_revision": "34503f3b51883acf175247b94dd55b2bdc2e1d96",
+  "dino_model": "vit_base_patch16_dinov3.lvd1689m",
+  "dino_checkpoint_sha256": "1f9ed8a2378d65e24bb710ba522ac9fa7be4e036d7aefb4384ce022833926332",
+  "tasks": [
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_in_the_black_bowl_next_to_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_in_the_black_bowl_next_to_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 768162726,
+      "source_sha256": "887bb958112d42042cd0f2c6515c9fb96fa5a53038b4d6c8f53a79ecf2090fe2"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_next_to_the_plate_demo.hdf5",
+      "task": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_next_to_the_plate",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 567197372,
+      "source_sha256": "8033ca3e74a398fa0631491dfb9f96e7b5857f015c3a39cea6ceac50646fec8d"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_cookie_box_demo.hdf5",
+      "task": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_cookie_box",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 731486584,
+      "source_sha256": "8b00c464eac7bcaf0ed759b6ad60587836c8ddec2d14999d64e226caa6275024"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+      "task": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 508779600,
+      "source_sha256": "ff6f26121653c77280eb40a38773a74141c11a8509f3466058cb56dd2cc60ead"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 741922638,
+      "source_sha256": "8d871f86425aa5a4cd1d6e0e0fec9dc06be290fa8be249fdc409b34888225b58"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_stove_demo.hdf5",
+      "task": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_stove",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 822928692,
+      "source_sha256": "78095bfce522dbf7e2bf5f34de1674cc1175dec68c1531b080096b1934a69bd3"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_table_center_demo.hdf5",
+      "task": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_table_center",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 638660040,
+      "source_sha256": "89c394f3079ba4e7c485af22e6acf4f7dc0917d9fb5b7cab859f85cf677a2021"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_wooden_cabinet_demo.hdf5",
+      "task": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_wooden_cabinet",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 975697278,
+      "source_sha256": "ee9337f14986461b74f61a541ef30fd6b2372c544bd14faff506d49b77ba883e"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_from_table_center_and_place_it_between_the_plate_and_the_ramekin_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_from_table_center_and_place_it_between_the_plate_and_the_ramekin_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 751570664,
+      "source_sha256": "141e15249bfc6b17d5c27bb210233045f62f60f2b15db6e52efc1900215ee7ea"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_from_table_center_and_place_it_between_the_plate_and_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_from_table_center_and_place_it_between_the_plate_and_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 610134203,
+      "source_sha256": "60c7c52370c2b11316dfe85ce67c994b48f650142118724654c9520698323e7f"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_from_table_center_and_place_it_in_the_black_bowl_next_to_the_plate_demo.hdf5",
+      "task": "pick_up_the_black_bowl_from_table_center_and_place_it_in_the_black_bowl_next_to_the_plate",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 848969928,
+      "source_sha256": "12e81985dd1e1bb82efcf95a18a9e26ad1c2301efd2a3ad65d45176b63f1e917"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_from_table_center_and_place_it_in_the_black_bowl_on_the_plate_demo.hdf5",
+      "task": "pick_up_the_black_bowl_from_table_center_and_place_it_in_the_black_bowl_on_the_plate",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 931268176,
+      "source_sha256": "7cfa771a409105dd79c3467d735dcf94133faa410814c93b6e556672f2a81715"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_from_table_center_and_place_it_next_to_the_cookie_box_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_from_table_center_and_place_it_next_to_the_cookie_box_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 758925420,
+      "source_sha256": "174209416b38fc8728c3d21132ec5a88768e157f790b5a7ae4650facf65e7b2a"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_from_table_center_and_place_it_next_to_the_cookie_box_demo.hdf5",
+      "task": "pick_up_the_black_bowl_from_table_center_and_place_it_next_to_the_cookie_box",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 628025212,
+      "source_sha256": "78970d8684eaa644c0994fab94f93e41d44a11fe7984d9b5957d50dee0f1a0de"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_from_table_center_and_place_it_next_to_the_plate_demo.hdf5",
+      "task": "pick_up_the_black_bowl_from_table_center_and_place_it_next_to_the_plate",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 839633348,
+      "source_sha256": "cec77a4c87fecdfc756e712adc2ad4075643837095986d241eb73ba8f1986e64"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_from_table_center_and_place_it_next_to_the_ramekin_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_from_table_center_and_place_it_next_to_the_ramekin_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 842118198,
+      "source_sha256": "cbbc74b5fcf1760880955e2c1dcc18b8c779c9ccca18365b79a33297f9f0ca17"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_from_table_center_and_place_it_next_to_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_from_table_center_and_place_it_next_to_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 688057957,
+      "source_sha256": "2f587b3610bdd30c0b1ce5d6af07cf240384659cedfbfae020ce0b0434e4a5be"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate_demo.hdf5",
+      "task": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 589630943,
+      "source_sha256": "75ede0cf5fbfc925093671b55032ad80f1b1f1cf35442ec6c663460d37d3e0b3"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_ramekin_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_ramekin_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 918545736,
+      "source_sha256": "2172709d3ec70bab3532b4054b3df54a148929221155034da31dcc108fa0fdea"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 771939570,
+      "source_sha256": "20ab80f69e5276009f31c8f46f244ef457d0b34d214b1129817abaf3f6be013b"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_stove_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_stove_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 873321458,
+      "source_sha256": "667c47ec8b4e58982fc2e6a6726b0bed0bc62716fc69313a9179dc9cea7d3d8d"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_stove_demo.hdf5",
+      "task": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_stove",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 719758080,
+      "source_sha256": "a45efdb37be8ddd8feff3a6ee6798dc0625dbd4f44e30a604b993de664006286"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_wooden_cabinet_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_wooden_cabinet_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1055610062,
+      "source_sha256": "0cf7af0d0829a8e50bcde0228653cd33dc9e1747aec1edb47a56df5d44edce38"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_wooden_cabinet_demo.hdf5",
+      "task": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_wooden_cabinet",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 897076600,
+      "source_sha256": "7639f5a555e51a0c8f16bdf03c43f5b461aca6ad4725444f0f0fbe19ad20427b"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_between_the_plate_and_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_between_the_plate_and_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 828203438,
+      "source_sha256": "35a533e3ec181401ae3c2f5cc967ea17d9c4fc7a6d4706c50b9aa9d2ea476cb7"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_in_the_black_bowl_on_the_wooden_cabinet_demo.hdf5",
+      "task": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_in_the_black_bowl_on_the_wooden_cabinet",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 837539650,
+      "source_sha256": "78ea82261a137349c6fc54ffeabf751eccca8c04fce495014ea4dfdee1e75d00"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_next_to_the_plate_demo.hdf5",
+      "task": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_next_to_the_plate",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 887740044,
+      "source_sha256": "e7efe5d9ccea37d7bf15f574a822abe3f8d1584ad614e92e56bd802d4934b02c"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_next_to_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_next_to_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 926702492,
+      "source_sha256": "502121ff520106238cf0944ebf56fbe1f7d5322efed0eb882543c936a402582b"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_cookie_box_demo.hdf5",
+      "task": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_cookie_box",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 941406380,
+      "source_sha256": "fbf30eb9fd04c2de198f3ded90c8ee48df2990f49c1b07756b103cc3c03f22d8"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 989115492,
+      "source_sha256": "c73627ef0e5c806467bf6fc00eddc23f7311ca39cfc93ff360d1c301f7435b4f"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_stove_demo.hdf5",
+      "task": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_stove",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 967845176,
+      "source_sha256": "c55f67e916f59b5210fa090170510c2d67b0bf72d49d41aacde159c1a34aae00"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_between_the_plate_and_the_ramekin_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_between_the_plate_and_the_ramekin_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 950955028,
+      "source_sha256": "1c72aaf5f083ea70bf12560f3d8d6e663b75a144e82c6e6d865e38e8653ca068"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_between_the_plate_and_the_ramekin_3_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_between_the_plate_and_the_ramekin_3",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 933561078,
+      "source_sha256": "ed2126f83d1332d441752b74a101560e7cae8c6b94a970aa2e7dfbd3c716193d"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_between_the_plate_and_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_between_the_plate_and_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 712508838,
+      "source_sha256": "7228dfa8904f4d493af0abed3b3f58fbe77f53943a75ed4968879b71860a559f"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_next_to_the_plate_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_next_to_the_plate_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1005124358,
+      "source_sha256": "b1c3d041a3638a1967d2c5af30c83d0427d64c5dc19ae54c7b962f8160805f53"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_next_to_the_plate_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_next_to_the_plate",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 774232096,
+      "source_sha256": "cd211078eaf4b0a3f5fd32712a9e5c3ec9f96d8de4a457a1ea40f3f0ecf2fe10"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_next_to_the_ramekin_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_next_to_the_ramekin_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1039614076,
+      "source_sha256": "a0c0ce749ff3b3df901873aea9cb006c5943a93fbbf2863444e200eef428b60b"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_next_to_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_next_to_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 826115764,
+      "source_sha256": "f1feee8d5913f07246dbef94df138e3711af2e51d31b823fabedb51f27ef63b6"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_cookie_box_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_cookie_box_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 946972412,
+      "source_sha256": "61f83895aa0d709231dda47e43251d82e137f567bd70c23c969b2b47f177fb47"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_cookie_box_3_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_cookie_box_3",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 922720276,
+      "source_sha256": "d0baee641c0ea77f8462347ebe44d413d8860bebb95a970ec4089d868d45a85f"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_cookie_box_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_cookie_box",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 710415069,
+      "source_sha256": "948453748fe15bb4685d61bb59e900ae54f8e2c6ea52f22bc9da1fe627c1cb3f"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1040502182,
+      "source_sha256": "55fbe2248036ab6ad73c88d35a1b2931dba128136c1af7a3e0168ceb9d8bb619"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 632345992,
+      "source_sha256": "9d0b5435b313a8c0d7336b429b5f0f578be6f2a9f5f8a6dd67459ef388f3c74c"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_ramekin_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_ramekin_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1154208894,
+      "source_sha256": "3f03e7a881820f9bf133f27a81f24f5ab55b9f9f88c3430248a06ecc98603b30"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_ramekin_3_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_ramekin_3",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1145760420,
+      "source_sha256": "8051cd8b2758d67467fe09bc60d4b1b4bc4d75bbbd4ed750806a6b2aeedd5f07"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 928982122,
+      "source_sha256": "274dee192e17a109c595cfb71db7286745dff0b221b641ee43144245967df812"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_stove_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_stove_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1120315548,
+      "source_sha256": "37b290e0b168be6509eb34fa184e966225097e3eb67301b290f26dc47ba1b2e7"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_stove_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_stove",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1124788270,
+      "source_sha256": "de99ae51c9d95065e5316c7f8200f29e1bd16c526485caf594099c6892b6b749"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_table_center_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_table_center_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 891715804,
+      "source_sha256": "eebcd11f101cb7b776934a408df091e3aacf5ee15946bd73401eff1479ed9a5b"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_table_center_3_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_table_center_3",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 848876990,
+      "source_sha256": "fa72468289eb492c3cc1cde347dc9b8147f67ab50c4ef863341c08da7a71c653"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_table_center_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_table_center",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 637566985,
+      "source_sha256": "f442833e24e39ab1814de457dc84185f56574050745ec6b5f5fd4b828a94d33b"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_wooden_cabinet_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_wooden_cabinet_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1170111942,
+      "source_sha256": "170dac7a08fc7e22b0981a31550bfc0ce80ec28167bff202be53a2eaadc21a6c"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_wooden_cabinet_3_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_wooden_cabinet_3",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1141983448,
+      "source_sha256": "e322c56e0148afc2352ce14210a8fb7ba4f3af05e57191d661d9e1ff37ebb5a5"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_wooden_cabinet_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_wooden_cabinet",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 946773656,
+      "source_sha256": "2865291bfea508ddf5e56da13d4dc56feb059983db4901a4ff54384b60a461d5"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_plate_and_place_it_between_the_plate_and_the_ramekin_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_between_the_plate_and_the_ramekin_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 628919420,
+      "source_sha256": "871fbb4be291ba3a2dad12619b59d4fad8075edd5553f147ad71d498dfb24492"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_plate_and_place_it_between_the_plate_and_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_between_the_plate_and_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 805144030,
+      "source_sha256": "b2af8f4f98783c8cd0d9a46b6e0deee8380d5c68a419bfd543ea93483113e28f"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_plate_and_place_it_in_the_black_bowl_next_to_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_in_the_black_bowl_next_to_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 814778392,
+      "source_sha256": "5f4111cf7edd37e62c46060292eda1b2aaa174a3f0daa2fba8b354871669d242"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_plate_and_place_it_in_the_black_bowl_on_the_table_center_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_in_the_black_bowl_on_the_table_center",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1111171308,
+      "source_sha256": "e9072c081f1010c2142c31769ff961740174f82e44f338d11aa660b08b01978f"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_plate_and_place_it_next_to_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_next_to_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 831184858,
+      "source_sha256": "27203e32854b493c7a26fb33e70197312e664263e50dd7ef671884c504afa69c"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_cookie_box_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_cookie_box_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 834458396,
+      "source_sha256": "8738989163cc573d678b0692a3ac8b29de47e6542b703f67ca5c4a50d79383fb"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_cookie_box_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_cookie_box",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1017144576,
+      "source_sha256": "d2c4451a39412ca766cd12508eda99f521768c85dd78fafe85703d6ed796886f"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 946177276,
+      "source_sha256": "31e9774ca9c7ba2c8e72eaeddfda537b645e93298d272ed13c82b8f137efdc68"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 597677074,
+      "source_sha256": "3961cb7126eaca47d0f5be29eb297bb62e7591e3c86172c9587c0bf670112f84"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_ramekin_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_ramekin_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 891112984,
+      "source_sha256": "76989dac06a35f848d8635880905a551d4e71d84ed99612c06369f031e22f051"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1085726428,
+      "source_sha256": "3504a3cf765d1c5bed33bfc7db13caa4ced6bfb450b1641b37fdfa8b19bd8d35"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_table_center_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_table_center",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 782581192,
+      "source_sha256": "32246878b3246274db819926ef701c56bba8db337cd5644b06d7eba09bfb1203"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_wooden_cabinet_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_wooden_cabinet_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1102126438,
+      "source_sha256": "0468efb42121347a9b8efcdd8eec19cd5871be223a5e8e51515fe798cd4902ea"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_wooden_cabinet_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_wooden_cabinet",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1302504742,
+      "source_sha256": "a0ede34e0438820ff94e6d52190ea82ea7cd9f2300766e2b5eaf0bbfce4ee416"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_between_the_plate_and_the_ramekin_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_between_the_plate_and_the_ramekin_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 674242914,
+      "source_sha256": "d9aacef7e52737eb50a8d905978ced62083852e6ef116014599457066802dc7c"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_between_the_plate_and_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_between_the_plate_and_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 862096792,
+      "source_sha256": "119685dea33e5824515cc9ea7ccaeafa26bd41ec9e22b0b52708bb96a3579326"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_in_the_black_bowl_between_the_plate_and_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_in_the_black_bowl_between_the_plate_and_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1018635494,
+      "source_sha256": "bc723e6c6c4ce939aa91707dc58c3cc962e3c866be5b6429269339331ea8c328"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_in_the_black_bowl_next_to_the_cookie_box_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_in_the_black_bowl_next_to_the_cookie_box",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1020623358,
+      "source_sha256": "bac758f43472aca094067e909c37639c40e3ef255bf9ec82f4294d6fd8aa1571"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_in_the_black_bowl_next_to_the_plate_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_in_the_black_bowl_next_to_the_plate",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1029171242,
+      "source_sha256": "1751ff3f75e3ef1cc7e6315e0c88520801a2b6d315487660cec3c5c26b00c007"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_next_to_the_plate_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_next_to_the_plate_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 682591538,
+      "source_sha256": "af317ea42e0f9a9473d2d4b46088ddfeed241a05c37a43ea23261905545d5fac"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_next_to_the_plate_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_next_to_the_plate",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 867463668,
+      "source_sha256": "4b1aaf9a59ed9d54994cc8d069c4e60f939b8f7e06e7dea238e005d55687b480"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_cookie_box_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_cookie_box_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1106400388,
+      "source_sha256": "97dacad5461ba10009e1daec25900a3aaad02f3c1c1162018427710db21ef7af"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_cookie_box_3_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_cookie_box_3",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 906519046,
+      "source_sha256": "eb4921f6acd22dbc8d07e77c35b7d08cede62d1840e198eb2bf01f1e528f55bd"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_cookie_box_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_cookie_box",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1118625858,
+      "source_sha256": "e4291a977baeda050c4cf0b3132fe4d8445f314e550533f4590ccbd730057a9b"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1064058560,
+      "source_sha256": "ed4358486822b9cfe020d426a0f7e56056b84e11942bcd7519a6ce969e8bd304"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_3_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_3",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1087018558,
+      "source_sha256": "28c861d97966ce2fcf77506ee5df157dba6394e72d4b7b2445c91cbed3ed2d57"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 671583385,
+      "source_sha256": "bf1090dd4826eacb49eb052f17d04798e2a1eb2f74f8d024bc3b9c5d234c25f9"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_ramekin_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_ramekin_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 977784552,
+      "source_sha256": "d31cb1660f43988dc54337201bdd700296f92f13f3d96b371384ebee67034024"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_ramekin_3_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_ramekin_3",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 778598976,
+      "source_sha256": "321c3f5e7ee52a53713c805aa1fd14851e4d15756d479ac9b1df11c2f15aca35"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 977784552,
+      "source_sha256": "aa3a0ae7a55ea0f3b54bee1d1980e0e7bc3964e603642d7ac3e0334679fd0524"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_stove_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_stove_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1144567684,
+      "source_sha256": "143cea5d6d02377db5652245117ab13169b5c2f0b4bd0602ca0eceedcbc2f544"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_stove_3_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_stove_3",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 943493614,
+      "source_sha256": "150f2117c4d73dc1676b996357ebfa13a5919c2be81648c0264d54129303e9a1"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_stove_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_stove",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1144667078,
+      "source_sha256": "560c0c6bfc653c308a931c77332f8cba900511fd26aec4e4ec5404007e36e575"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_wooden_cabinet_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_wooden_cabinet_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1339081742,
+      "source_sha256": "a54cdc03582c551ddc231d2283441f2797252e778cb5b24efb7ff14135a0a089"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_wooden_cabinet_3_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_wooden_cabinet_3",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1136218580,
+      "source_sha256": "aae0551862213afd2eff26e4a554e5bf7766df18dd65abfd20a9d8aecfcb69b7"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_wooden_cabinet_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_wooden_cabinet",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1339081742,
+      "source_sha256": "6e83c159075840160a4b7e63cdb57f5d0779b0aeb61bded3b350c8c700b2d564"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_between_the_plate_and_the_ramekin_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_between_the_plate_and_the_ramekin_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 823233738,
+      "source_sha256": "e62c63a0ea3f8b3f3ec4f972b9eef0a248400aab986533ec3ad85d493dcb17c2"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_between_the_plate_and_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_between_the_plate_and_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 618582804,
+      "source_sha256": "db0f965c3dc6d323072df328efc6fc2f077b06d1661e53bd9c41c2bd8f103ad1"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_in_the_black_bowl_on_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_in_the_black_bowl_on_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1041794296,
+      "source_sha256": "4da541eb8776f9c3acd3d2e030fa02cfa0cea3d57ff6b8fb308018e285b4def1"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_next_to_the_cookie_box_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_next_to_the_cookie_box_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 771846640,
+      "source_sha256": "1d63ea42bc34a5b2eaf1db5b426def7cb926d66767192f8aa0a13d653d2ee460"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_next_to_the_cookie_box_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_next_to_the_cookie_box",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 610929125,
+      "source_sha256": "a9a364a351a517c47e270b285ce7c1ea93f8d21ecc274992d99830a196709370"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_next_to_the_plate_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_next_to_the_plate_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 877104886,
+      "source_sha256": "1eb0a6ee595e235feca3486674fa91a2c281430ed1c0f96cee1e1d29c44cc622"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_next_to_the_plate_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_next_to_the_plate",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 676827037,
+      "source_sha256": "d5712bfe79c2ee6f086e8ed498deb91dcfca100c44ebac45ae70951e56d3c609"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_next_to_the_ramekin_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_next_to_the_ramekin_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 936144922,
+      "source_sha256": "15060dc3f73088e3cc2d3061e39368c8c75a4ba2b14262b0c19a8d920a746a3f"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_next_to_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_next_to_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 723044250,
+      "source_sha256": "05331a86848e31cd8558a570ee3205e7248ce34214351c0f15b833c748251094"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 927590582,
+      "source_sha256": "6d6640569582463b86ef303718eeab47aa7912e6c6d608bf14b25bb9a222904d"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 507189857,
+      "source_sha256": "0c053db7317e584632549bddb963bee8a237661b4bd29f0581a245f715e8eb72"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 827003870,
+      "source_sha256": "627ba445b03206eab1b0bdb64ccdb8d7edc2f0f84809ef3a5617845758e4bede"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_stove_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_stove_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1015951856,
+      "source_sha256": "2456e2fef19298f29360681a4b5805a8783ecef378fd032c865210572ecd42fc"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_stove_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_stove",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 800664444,
+      "source_sha256": "58fc427291156dce36f3bc29f14d2c65bf65dece76292bd31bae2dd79ab868df"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_table_center_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_table_center_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 759720588,
+      "source_sha256": "3edf2470fbc3256e7d07b852fec9830d0c56ef63a915acec4f6a90b5f87760e4"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_table_center_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_table_center",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 585086708,
+      "source_sha256": "4e147bc1dc5991df80e0f0ab8506085c2b7daf6baa7fd82294682267c2f09e30"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_plate_and_place_it_between_the_plate_and_the_ramekin_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_plate_and_place_it_between_the_plate_and_the_ramekin_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 790334324,
+      "source_sha256": "ca2437f156c34107c75e3b21bb5cd5fcb8101e77e1904911f491ff869075b256"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_plate_and_place_it_between_the_plate_and_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_plate_and_place_it_between_the_plate_and_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 790334324,
+      "source_sha256": "9fea3b94e6af5e4cff66e022ef5485bd8e3991981997d8055fd75c54a3f6611d"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_plate_and_place_it_in_the_black_bowl_next_to_the_cookie_box_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_plate_and_place_it_in_the_black_bowl_next_to_the_cookie_box",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1102722818,
+      "source_sha256": "f84b44bbe889fb60281feab63849ee99ade29a336fdba9d6a18c704214b9b1f0"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_plate_and_place_it_next_to_the_cookie_box_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_plate_and_place_it_next_to_the_cookie_box",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1041005592,
+      "source_sha256": "92e100f757cd7b170595e154e862dae77e4df8eb508f44f575774cb29be0ffb2"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_plate_and_place_it_next_to_the_plate_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_plate_and_place_it_next_to_the_plate_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 793812714,
+      "source_sha256": "7e975ada7d958746793e7c30c6107f312b48eb07f7ce92b981b06db03ea2ddd4"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_plate_and_place_it_next_to_the_plate_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_plate_and_place_it_next_to_the_plate",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 791327864,
+      "source_sha256": "2ebffcf174c38b644aaadd015e3b2a306298b5a356bfbdc10e8c905c1c97a9c0"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_plate_and_place_it_next_to_the_ramekin_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_plate_and_place_it_next_to_the_ramekin_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 873725490,
+      "source_sha256": "f86b014edb3ba35965b1575a193af77f7ac2bc50a71eceb237cfe69ec0980dbf"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_plate_and_place_it_next_to_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_plate_and_place_it_next_to_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 873725490,
+      "source_sha256": "32d94d2b78a904ef324326b9f6bfcc0ed39755b64202a13aefc5a7acb8e6c01a"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_plate_and_place_it_on_the_cookie_box_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_plate_and_place_it_on_the_cookie_box_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 945680282,
+      "source_sha256": "3222610f90687574a01d48ba09e039ecc8df44b4606537da6c3fc884da5c5d7a"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_plate_and_place_it_on_the_cookie_box_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_plate_and_place_it_on_the_cookie_box",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 944089978,
+      "source_sha256": "0dc915528d6bc9fe21501879d0972145953f7a3aadacdb7391a77581393c2761"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_plate_and_place_it_on_the_ramekin_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_plate_and_place_it_on_the_ramekin_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1022909420,
+      "source_sha256": "df0654e1dd77b23c923125d4e69cb89e975d439d4b88ef8d51f2e6ca2f669214"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_plate_and_place_it_on_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_plate_and_place_it_on_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1023008814,
+      "source_sha256": "46329dfcdfb106a09b4f80ef2b526a932e052d3926a9f8091963c571c4153af6"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_plate_and_place_it_on_the_stove_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_plate_and_place_it_on_the_stove_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1107294926,
+      "source_sha256": "908ce6e859d02859628e630815a80dc2861ccf4244b97882d6be623ee60ed308"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_plate_and_place_it_on_the_stove_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_plate_and_place_it_on_the_stove",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1112364028,
+      "source_sha256": "89735193543c134fff1a49a5cb38bd8b2fb8a87834fe954875a90d055a107920"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_plate_and_place_it_on_the_wooden_cabinet_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_plate_and_place_it_on_the_wooden_cabinet_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1231438048,
+      "source_sha256": "5396b4f5c20445e1a6c7a735b74d2f0e0d032efbbe8ced2c717a65ffb1045b74"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_plate_and_place_it_on_the_wooden_cabinet_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_plate_and_place_it_on_the_wooden_cabinet",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1231338654,
+      "source_sha256": "bfab8674cc813db3c94ee23b4821fc29d074377d93c5f25d9b3e148fa393783a"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_ramekin_and_place_it_between_the_plate_and_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_between_the_plate_and_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 584789747,
+      "source_sha256": "a37e8eaa1476ba5f1257d5ae3d8016fe1678cb29a895a941778454d0ad05ccd9"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_ramekin_and_place_it_in_the_black_bowl_on_the_cookie_box_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_in_the_black_bowl_on_the_cookie_box",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 856424494,
+      "source_sha256": "8db988fdd6f3a1448d0c1fcb25bb84a503ce9e49d4a2d69fda66636f0a0fe47e"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_ramekin_and_place_it_next_to_the_plate_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_next_to_the_plate",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 625142488,
+      "source_sha256": "42d19cf6b2f2ed326f662da322d4e00e0a78ae40a924737ca57f470b68b8dec6"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_ramekin_and_place_it_next_to_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_next_to_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 569484107,
+      "source_sha256": "6ee3579e3a6e18ba45ee3aa2165ac7e3706c70265e8262e8c79f897d2404aa15"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 581087722,
+      "source_sha256": "d9b2da7399a88bea39024c8ef97713a20734e9b765e14b3399e2755890c828b7"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_stove_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_stove",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 819847494,
+      "source_sha256": "db55b90945735ebde4a40ed226582afde331ad653cca00d88d077d7a69026e29"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_table_center_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_table_center",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 661818363,
+      "source_sha256": "0c9f16f98a62a274a900429a32c557febc8e6a847777d4fe02b2987feb4e390d"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_wooden_cabinet_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_wooden_cabinet",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 978380948,
+      "source_sha256": "6a687d4c4093724ffbcea74371af2678e09e60dadc881ad30856ce8c25ceb52f"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_stove_and_place_it_between_the_plate_and_the_ramekin_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_stove_and_place_it_between_the_plate_and_the_ramekin_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 743917596,
+      "source_sha256": "11d163fcedebd1a1cdefa171dc82a9e1e10dd7411d87bf05577677decdd390f5"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_stove_and_place_it_between_the_plate_and_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_stove_and_place_it_between_the_plate_and_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 882870138,
+      "source_sha256": "3b1cc6e3c2e3ef7736d01a4defdae78953602ca1afe7a045d606423e7931475d"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_stove_and_place_it_in_the_black_bowl_on_the_wooden_cabinet_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_stove_and_place_it_in_the_black_bowl_on_the_wooden_cabinet",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 931963918,
+      "source_sha256": "8735ebd14dcf3fa516ee2394a0f0ccd95f7ae8f09c26de071099889a1ea91ee7"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_stove_and_place_it_next_to_the_cookie_box_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_stove_and_place_it_next_to_the_cookie_box",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 850666082,
+      "source_sha256": "a77f8cde8f1b48ffab19620912aaf16c0d5c2263d7b97b3d587cfe11fbb28b76"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_stove_and_place_it_next_to_the_plate_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_stove_and_place_it_next_to_the_plate_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 849771536,
+      "source_sha256": "c53c17bcee07f526b80908995a720a1723cd4a5d2710ccb620cbf89aa0850bda"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_stove_and_place_it_next_to_the_plate_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_stove_and_place_it_next_to_the_plate",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 974610400,
+      "source_sha256": "0bb6fe537590038f455034ec0b9a09b2dd16180da34f20979eabeb718cac1b05"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_stove_and_place_it_next_to_the_ramekin_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_stove_and_place_it_next_to_the_ramekin_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 808125450,
+      "source_sha256": "48ccd1348f4be37ff1a2591cee11849a961e231babb65e17a9a07ee92de5d31e"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_stove_and_place_it_next_to_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_stove_and_place_it_next_to_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 933461284,
+      "source_sha256": "139a3aa0f54b58731c6f564924c75efdf2bd51030a943142ad9bb7999ce40998"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_cookie_box_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_cookie_box_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 856026894,
+      "source_sha256": "0fa1cddcea74005b89c1c654033dd38c88216a6fe1af99c06dd6f4d47bd7e79c"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_cookie_box_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_cookie_box",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 960887588,
+      "source_sha256": "8c465e4e5df8700325f2c154c051eb5eb7d565fcf6a07412b891432ec2d3959c"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 711715594,
+      "source_sha256": "1fcb3990cf9fd6185f56531cc9f6dec0a77a59bfa0c7f39dff95b7e43cf6aeaa"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_table_center_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_table_center_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 648101984,
+      "source_sha256": "85b3ab4f9b7104a9342553a1b5b11cac741bf4ec40c7b41ade10dfc7d6af7440"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_table_center_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_table_center",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 767970274,
+      "source_sha256": "d2e424fbfe6afeda0571709a292e1dfb494a2bfc80a92d3a973e180e5cacb7b9"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_wooden_cabinet_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_wooden_cabinet",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1007702162,
+      "source_sha256": "ecd092bd60c7fbd0498cbb82fc7ba04a122f5611c72b7200c274662a78322e19"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_in_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_in_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 977983348,
+      "source_sha256": "06b1e844d0e157944b4846aa71deba9d52d3e96bb149713af47e6f0240d421d0"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_in_the_black_bowl_on_the_cookie_box_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_in_the_black_bowl_on_the_cookie_box",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1098051300,
+      "source_sha256": "f461195e3e1d93aa2483e614c8e82e8ccae33e12a7f6d6c3f7ea0caf9f05a2a5"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_in_the_black_bowl_on_the_stove_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_in_the_black_bowl_on_the_stove",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1087018542,
+      "source_sha256": "510748247aea9b238a182fd473ba2cc574c8fb31b128d510e8ed413af42797dd"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_next_to_the_plate_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_next_to_the_plate_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1154612934,
+      "source_sha256": "c3734410bbb1c772a7dedb7775a480bc5e1d8112fb4644974be19560a21c9432"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_next_to_the_plate_3_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_next_to_the_plate_3",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1158389906,
+      "source_sha256": "75cb7a7ffb60118a0506fd87f6852aa8fd9603b172009863eea69dd836aba57f"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_next_to_the_plate_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_next_to_the_plate",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1141691714,
+      "source_sha256": "c834b216a577c1c95a2f89fb4bbe861dca022cf7c2270cd02cd5026c93bbcbe1"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_next_to_the_ramekin_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_next_to_the_ramekin_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1165248092,
+      "source_sha256": "61f9472bfb6d7a30ba0cc7390de455e41a0724daea8e819f00f6f28926c791b6"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_next_to_the_ramekin_3_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_next_to_the_ramekin_3",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1171410520,
+      "source_sha256": "fb1ac44d98530601c3e770f3a7c2c2a2088bedc342de08f24c13b4d3f2e8380e"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_next_to_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_next_to_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1169621428,
+      "source_sha256": "0fbbc112e05efcbab00284ba64537c101fcb766b338f21afde9a377e8fbca00f"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_cookie_box_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_cookie_box_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1101132506,
+      "source_sha256": "de114155426511c73232f2ee256a387c66440765c1f7dc35c74ae43883639c0f"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1211857454,
+      "source_sha256": "66f42b9dedd96b9a0f0900d8d7a6c8f0dcd8223f896f2230dd593645d3dd9d64"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_3_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_3",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1194662236,
+      "source_sha256": "4e9f5241a96bc48f31323e6b92c53113f5c1d04e9630d1e13fa07d1780dedb31"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 688768764,
+      "source_sha256": "4d503d447028f437211880bea4ee1a7f6732113ea8560181fcca163251864794"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_ramekin_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_ramekin_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1217920464,
+      "source_sha256": "7fa644a2a4702b8bad1eacb199efba76f79deedf9f1035187418d12fa41268ac"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_ramekin_3_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_ramekin_3",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1227064728,
+      "source_sha256": "cfe2b4f0678caccded236cfeec7ad9842e1cdfde0b76632e6b4f08598617a3db"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_ramekin",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1218218662,
+      "source_sha256": "c48e41753cae98df770edadd4aec3b1c3f2e285c36028534c255211e08e2a5f9"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_stove_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_stove_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1080458554,
+      "source_sha256": "60cff1b8d4caedeb66112dc095b570679d8d975e00c6b571ef26bd25665fbd3d"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_stove_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_stove",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 1068233108,
+      "source_sha256": "99d4cebccc49e00f5c839d513709cd2d27de44c5903b7832e0dd8f10a08d237f"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_table_center_2_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_table_center_2",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 946283110,
+      "source_sha256": "039c04ec7ac29cbece987522064a6510c2efadc7930a7dc177c5c66a3beef183"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_inverse_view/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_table_center_3_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_table_center_3",
+      "view": "libero_spatial_selected_combinations_inverse_view",
+      "bytes": 968149790,
+      "source_sha256": "f41c4e3d38ab967e7a297656199b0ef58bafa78d77f25b38d1531253030f559f"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_view/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_cookie_box_demo.hdf5",
+      "task": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_cookie_box",
+      "view": "libero_spatial_selected_combinations_view",
+      "bytes": 712502356,
+      "source_sha256": "02331cc502061b702766b538190fbeaacfcfe34eb738d3b9e38bfec1c4dc2153"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_view/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate_demo.hdf5",
+      "task": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate",
+      "view": "libero_spatial_selected_combinations_view",
+      "bytes": 748271833,
+      "source_sha256": "7ff1ee60447875c152d8c7819f499d23dbc0eb4d4bf045225d5d87a2cdad99bd"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_view/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_in_the_black_bowl_next_to_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_in_the_black_bowl_next_to_the_ramekin",
+      "view": "libero_spatial_selected_combinations_view",
+      "bytes": 1225971354,
+      "source_sha256": "55d688518b0d5c8dec3ef5dd03dcdb2a3e4f950e390c4fb88082d82348a84863"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_view/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_stove_demo.hdf5",
+      "task": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_stove",
+      "view": "libero_spatial_selected_combinations_view",
+      "bytes": 1167428296,
+      "source_sha256": "1a385549abf8dfd6d2fc0b1098514e6d144420e0cd74f50e5e7b828e887a12f3"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_view/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_in_the_black_bowl_on_the_wooden_cabinet_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_in_the_black_bowl_on_the_wooden_cabinet",
+      "view": "libero_spatial_selected_combinations_view",
+      "bytes": 970330010,
+      "source_sha256": "e06387cd767358d812fd317b787dbdcf1418fae6f1c1a346baf937da0684eb97"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_view/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_wooden_cabinet_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_wooden_cabinet",
+      "view": "libero_spatial_selected_combinations_view",
+      "bytes": 1081154320,
+      "source_sha256": "80ce8eef16ee699f193a3093b3c21a45716f4b19f016aa9a5df6e3280fce2ce8"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_view/pick_up_the_black_bowl_on_the_plate_and_place_it_in_the_black_bowl_on_the_table_center_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_plate_and_place_it_in_the_black_bowl_on_the_table_center",
+      "view": "libero_spatial_selected_combinations_view",
+      "bytes": 1031258540,
+      "source_sha256": "6e55c593bca2964a5a43ccf492eeb4ef403567364a6c3bfe3a4e73437d0d5efb"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_view/pick_up_the_black_bowl_on_the_plate_and_place_it_on_the_table_center_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_plate_and_place_it_on_the_table_center",
+      "view": "libero_spatial_selected_combinations_view",
+      "bytes": 880583676,
+      "source_sha256": "4aae40192c474f437f645e86778556135cb0f8ad57e018b281169c8e5dcf13c9"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_view/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_ramekin",
+      "view": "libero_spatial_selected_combinations_view",
+      "bytes": 971125178,
+      "source_sha256": "26ca2c36546726610618f95c3c00eceaafc318e41d45abde55300c5528a8cdbb"
+    },
+    {
+      "file": "demonstration_data/libero_spatial_selected_combinations_view/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_between_the_plate_and_the_ramekin_demo.hdf5",
+      "task": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_between_the_plate_and_the_ramekin",
+      "view": "libero_spatial_selected_combinations_view",
+      "bytes": 1075793892,
+      "source_sha256": "ded5198c3d311bf0bd00d262c8a4584891f76b672e102c4ae56213df89381746"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+---
+import type { HeroProps } from "./heroUtils";
+
+const { title, description } = Astro.props as HeroProps;
+---
+
+<section class="hero">
+  <h1 class="hero-title" set:html={title} />
+  {description && <p class="hero-desc">{description}</p>}
+</section>
+
+<script is:inline>
+  (() => {
+    const el = document.querySelector(".hero-title");
+    if (!el) return;
+    const len = (el.textContent || "").length;
+    if (len > 100) el.dataset.titleSize = "sm";
+    else if (len > 60) el.dataset.titleSize = "md";
+  })();
+</script>
+
+<style>
+  .hero {
+    width: 100%;
+    padding: 64px 16px 16px;
+    text-align: center;
+  }
+  .hero-title {
+    font-size: clamp(34px, 5vw, 54px);
+    font-weight: 800;
+    line-height: 1.12;
+    letter-spacing: -0.02em;
+    margin: 0 auto 8px;
+    max-width: 780px;
+    text-wrap: balance;
+  }
+  .hero-title[data-title-size="md"] {
+    font-size: clamp(28px, 4vw, 44px);
+  }
+  .hero-title[data-title-size="sm"] {
+    font-size: clamp(24px, 3.2vw, 38px);
+  }
+  .hero-desc {
+    color: var(--muted-color);
+    font-style: italic;
+    margin: 0 auto 16px;
+    max-width: 55%;
+  }
+
+  @media (max-width: 768px) {
+    .hero-desc { max-width: 90%; }
+  }
+
+</style>

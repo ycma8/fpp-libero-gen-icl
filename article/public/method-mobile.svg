@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 1000" role="img" aria-labelledby="title desc">
+<title id="title">FPP architecture</title><desc id="desc">A sensorimotor demonstration and causal execution history condition a flow action decoder. Direct support attention also connects the demonstration to the decoder.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#4c606a"/></marker></defs>
+<rect width="500" height="1000" rx="16" fill="#f8f7f3"/>
+<g data-card="demonstration" font-family="Arial, sans-serif" fill="#253743"><rect x="24" y="24" width="392" height="180" rx="14" fill="#e2eee8" stroke="#83968e"/>
+<text x="48" y="65" font-size="24" font-weight="700">Sensorimotor demonstration</text>
+<text x="48" y="105" font-size="20">Two-view patches + proprioception</text>
+<text x="48" y="143" font-size="20">20 actions per temporal chunk</text>
+</g>
+<g data-card="history" font-family="Arial, sans-serif" fill="#253743"><rect x="24" y="264" width="392" height="160" rx="14" fill="#e5edf3" stroke="#83968e"/>
+<text x="48" y="305" font-size="24" font-weight="700">Execution history</text>
+<text x="48" y="345" font-size="20">Two-view patches + proprioception</text>
+<text x="48" y="383" font-size="20">Causal blocks · temporal KV cache</text>
+</g>
+<g data-card="context" font-family="Arial, sans-serif" fill="#253743"><rect x="24" y="484" width="392" height="190" rx="14" fill="#e5edf3" stroke="#83968e"/>
+<text x="48" y="525" font-size="24" font-weight="700">Visual contextualization</text>
+<text x="48" y="565" font-size="20">6 Transformer layers · width 512</text>
+<text x="48" y="603" font-size="20">Complete sampled past history</text>
+<text x="48" y="641" font-size="20">Current spatial patch memory</text>
+</g>
+<g data-card="decoder" font-family="Arial, sans-serif" fill="#253743"><rect x="24" y="734" width="392" height="240" rx="14" fill="#f2e8da" stroke="#83968e"/>
+<text x="48" y="775" font-size="24" font-weight="700">Flow action decoder</text>
+<text x="48" y="815" font-size="20">8 layers · direct demo attention</text>
+<text x="48" y="853" font-size="20">10 flow integration steps</text>
+<text x="48" y="891" font-size="20">Predict 16 × 10D actions</text>
+<text x="48" y="929" font-size="20">Execute 12 native 7D controls</text>
+</g>
+<g fill="none" stroke="#4c606a" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)">
+<path d="M220 204 V240 H12 V578 H24"/>
+<path d="M220 424 V484"/>
+<path d="M220 674 V734"/>
+<path d="M416 110 H476 V850 H416"/>
+</g>
+<text x="456" y="480" transform="rotate(-90 456 480)" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#4c606a">Direct support memory</text>
+</svg>
